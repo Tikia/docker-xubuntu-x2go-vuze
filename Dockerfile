@@ -28,8 +28,8 @@ RUN apt-get update
 RUN apt-get install -y vuze
 
 #Add password script
-ADD https://raw.githubusercontent.com/Tikia/docker/master/xubuntu-x2go-Vuze/root_pw_set.sh /
-ADD https://raw.githubusercontent.com/Tikia/docker/master/xubuntu-x2go-Vuze/run.sh /
+ADD https://raw.githubusercontent.com/Tikia/docker-xubuntu-x2go-vuze/master/root_pw_set.sh /
+ADD https://raw.githubusercontent.com/Tikia/docker-xubuntu-x2go-vuze/master/run.sh /
 RUN chmod +x /*.sh
 
 #Define port
