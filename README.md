@@ -14,6 +14,8 @@ Port Exposed : 22
 
 Volumes : /home/dockerx/Downloads/Vuze & /home/dockerx/Downloads/Torrents
 
+In Vuze Options, in IP filters, autoloading part, add this URL http://list.iblocklist.com/?list=bt_level1
+
 ### How to run/connect to server with a Client?
 
 Download the x2go client for your OS from:
